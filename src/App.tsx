@@ -22,14 +22,14 @@ function App() {
     <Router>
       
 <Routes>
-      {/* <Header/>
+     {/* <Header/>
     <HeroPage/>
     <HeadlineCard/>
     <Food/>
-    <Category/> */}
+    <Category/>  */}
     
     <Route path="/header"  Component={Header} />
-    <Route path="/hero"  Component={HeroPage} />
+    <Route path="/"  Component={HeroPage} />
     <Route path="/headline"  Component={HeadlineCard} />
     <Route path="/food"  Component={Food} />
     <Route path="/category"  Component={Category} />
